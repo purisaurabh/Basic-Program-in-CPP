@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#48231F",
+        "titleBar.activeBackground": "#64312C",
+        "titleBar.activeForeground": "#FCF9F9"
+    }
+}
