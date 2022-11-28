@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*
+int main()
+{
 
   int low, high, i;
   bool is_prime = true;
@@ -11,21 +13,25 @@ int main() {
 
   cout << "\nPrime numbers between " << low << " and " << high << " are: " << endl;
 
-  while (low < high) {
+  while (low < high)
+  {
     is_prime = true;
 
     // 0 and 1 are not prime numbers
-    if (low == 0 || low == 1) {
+    if (low == 0 || low == 1)
+    {
       is_prime = false;
     }
- 
-    for (i = 2; i <= low/2; ++i) {
-      if (low % i == 0) {
+
+    for (i = 2; i <= low / 2; ++i)
+    {
+      if (low % i == 0)
+      {
         is_prime = false;
         break;
       }
     }
-        
+
     if (is_prime)
       cout << low << ", ";
 
@@ -33,4 +39,11 @@ int main() {
   }
 
   return 0;
-}
+}     
+
+
+
+
+*/
+
+
